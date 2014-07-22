@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><project basedir="." default="help" name="R20C_Robot">
 
 <!-- You may freely edit this file. See commented blocks below for -->
 <!-- some examples of how to customize the build. -->
 
+=======
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project basedir="." default="help" name="R20C_Robot">
+
+<!-- You may freely edit this file. See commented blocks below for -->
+<!-- some examples of how to customize the build. -->
+
+>>>>>>> eb58a4a799b1adfa5c49f70b507a04e2fa66f19f
     <!--
     
     The master build file lives at: ${sunspot.home}/build.xml.
@@ -21,12 +29,21 @@
     For a complete listing of properties that are used, and their
     explanations, see the file ${sunspot.home}/default.properties.
 
+<<<<<<< HEAD
     -->
 
     <property name="user.properties.file" value="build.properties"/>
     <property file="${user.home}/.sunspotfrc.properties"/>
     <import file="${sunspot.home}/build.xml"/>
 
+=======
+    -->
+
+    <property name="user.properties.file" value="build.properties"/>
+    <property file="${user.home}/.sunspotfrc.properties"/>
+    <import file="${sunspot.home}/build.xml"/>
+
+>>>>>>> eb58a4a799b1adfa5c49f70b507a04e2fa66f19f
     <!--
 
     This file imports the master build file for compiling and deploying sunspot
@@ -89,5 +106,9 @@
 
     For more information on using ant, see http://ant.apache.org.
 
+<<<<<<< HEAD
     -->
+=======
+    -->
+>>>>>>> eb58a4a799b1adfa5c49f70b507a04e2fa66f19f
 </project>
