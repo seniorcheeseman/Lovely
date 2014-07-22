@@ -1,0 +1,12 @@
+*.class
+.classpath
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/build/
+/nbproject/private/
+/nbproject/project.xml
+/R2OC/
+/R20C/
